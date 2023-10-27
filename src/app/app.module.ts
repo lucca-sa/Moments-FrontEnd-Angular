@@ -10,6 +10,8 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 import { NewmomentFormComponent } from './components/newmoment-form/newmoment-form.component';
+import { MessagesComponent } from './components/messages/messages.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { NewmomentFormComponent } from './components/newmoment-form/newmoment-fo
     HomeComponent,
     NewMomentComponent,
     NewmomentFormComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +30,7 @@ import { NewmomentFormComponent } from './components/newmoment-form/newmoment-fo
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
