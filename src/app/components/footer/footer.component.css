@@ -5,9 +5,8 @@ footer {
   align-items: center;
   justify-content: center;
   height: 150px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  background-color: #fefefe;
 }
 
 footer h3 {

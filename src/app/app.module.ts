@@ -12,7 +12,6 @@ import { NewMomentComponent } from './components/pages/new-moment/new-moment.com
 import { NewmomentFormComponent } from './components/newmoment-form/newmoment-form.component';
 import { MessagesComponent } from './components/messages/messages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
 @NgModule({
   declarations: [
     AppComponent,
