@@ -32,9 +32,5 @@ export class NewMomentComponent {
     this.messageService.add('Moment Created Successfully!');
 
     this.router.navigate(['/']);
-
-    //Enviar para o service
-    //Exibir msg
-    //Redirect
   }
 }
